@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo&display=swap");
+
+body{
+    font-family: 'Cardo', serif;
+    font-size: 20px;
+    width: 100%;
+}
+/* header section */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+.logo{
+    flex: 0 0 calc(25%-3px);
+}
+.navigation{
+    flex: 0 0 calc(50%-3px);
+}
+.navigation nav{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+   
+
+}
+.navigation ul{
+    display: inline-block;
+    list-style: none;
+}
+.navigation li{
+    display: inline-block;
+    text-transform: capitalize;
+    margin-right: 20px;
+    text-decoration: none;
+
+}
+.navigation li a{
+    text-decoration: none;
+    color: #1E1E26;
+    font-size: 15px;
+}
+.btn-get{
+    flex: 0 0 calc(25%-3px);
+}
+.btn-get button{
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: #F1613B;
+    border: 2px solid #F1613B;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+}
+.btn-get button:hover{
+    background-color: #ffffff;
+    transform: scale(1.02);
+}
+/* end of header section */
+
+/* start of hero section */
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.hero-detail{
+    flex: 0 0 calc(50%-3px);
+    padding: 20px;
+    margin: 10px;
+}
+.hero-detail h3{
+    color: #1E1E26;
+    text-decoration: none;
+    font-size: 50px;
+}
+.hero-detail p{
+    color: #9A9DAB;
+}
+.hero-img{
+    flex: 0 0 calc(50%-3px);
+}
+.hero-img img{
+    width: 100%;
+}
+/* end of hero section */
+/* start of testmonials */
+.container-test{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 140px;
+    margin-bottom: 30px;
+}
+.personnel{
+    flex: 0 0 calc(100%/3 - 3px);
+    background-color: #D8D8DD;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.person-img img{
+    margin-top: -40px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+.name {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.name h6{
+    text-transform: capitalize;
+    color: #1E1E26;
+    font-size: 20px;
+    text-decoration: none;
+}
+.name p{
+text-decoration: none;
+color: #9A9DAB;
+
+}
+.get-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.get-btn button{
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: #F1613B;
+    border: 2px solid #F1613B;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+}
+.get-btn button:hover{
+    background-color: #ffffff;
+    transform: scale(1.02);
+}
