@@ -117,6 +117,9 @@ header{
 }
 /* end of hero section */
 /* start of testmonials */
+.testmonials{
+    margin: 30px;
+}
 .container-test{
     display: flex;
     justify-content: space-between;
@@ -144,6 +147,7 @@ header{
     color: #242E52;
     font-size: 40px;
     font-weight: bold;
+    margin: 20px;
 }
 .personnel{
     flex: 0 0 calc(100%/3 - 3px);
@@ -152,11 +156,13 @@ header{
     justify-content: center;
     display: flex;
     flex-direction: column;
+    height: 200px;
+
 }
 .person-img img{
-    margin-top: -40px;
-    width: 80px;
-    height: 80px;
+    margin-top: -50px;
+    width: 100px;
+    height: 100px;
     text-align: center;
 }
 .name {
@@ -174,7 +180,8 @@ header{
 }
 .name p{
 text-decoration: none;
-color: #9A9DAB;
+color: grey;
+text-align: center;
 
 }
 .get-btn{
@@ -191,6 +198,7 @@ color: #9A9DAB;
     width: 150px;
     height: 40px;
     border-radius: 20px;
+    margin: 10px;
 }
 .get-btn button:hover{
     background-color: #ffffff;
